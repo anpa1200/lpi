@@ -54,6 +54,17 @@ This repository provides multiple ways to practice for the LPI Linux Essentials 
 | `requirements.txt` | Python dependencies for `LPIExam.py` and optional Kivy app. |
 | `LICENSE.md`       | GNU General Public License v3. |
 | `.gitignore`       | Ignores build artifacts, venv, `*.exe`, IDE files, and secrets. |
+| **`linux/`**       | **Linux:** launcher script and [instructions](linux/README.md). Run with `./linux/run.sh`. |
+| **`windows/`**     | **Windows:** batch and PowerShell launchers and [instructions](windows/README.md). Run with `windows\run.bat` or `.\windows\run.ps1`. |
+
+---
+
+## Platform launchers
+
+- **Linux (and macOS/WSL):** `./linux/run.sh` — finds repo root, uses `.venv`/`venv` if present, runs PyQt6 GUI.
+- **Windows:** `windows\run.bat` or `.\windows\run.ps1` — same behavior; use from the repository root.
+
+See [linux/README.md](linux/README.md) and [windows/README.md](windows/README.md) for setup and requirements per platform.
 
 ---
 

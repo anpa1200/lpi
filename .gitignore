@@ -33,6 +33,8 @@ env/
 *.app
 *.msi
 *.spec
+windows/build/
+linux/build/
 
 # IDE and editor
 .idea/
