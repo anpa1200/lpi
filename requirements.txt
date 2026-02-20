@@ -1,0 +1,9 @@
+# LPI Exam Simulator — Python dependencies
+# Install: pip install -r requirements.txt
+# Production: use a virtual environment and pin versions for reproducibility.
+
+# Main GUI application (LPIExam.py)
+PyQt6>=6.4.0
+
+# Legacy Kivy UI (main(1.0).py). Omit if you only use LPIExam.py.
+kivy>=2.1.0
