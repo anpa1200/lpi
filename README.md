@@ -1,6 +1,6 @@
 # LPI Exam Simulator & Trainer
 
-**Professional study and exam simulation toolkit for the Linux Professional Institute (LPI) 010-160 exam.**
+**Professional study and exam simulation toolkit for the Linux Professional Institute (LPI) 010-160 exam.** Bash, PyQt6, and Kivy interfaces with a shared question bank for trainer and exam modes.
 
 This repository provides multiple ways to practice for the LPI Linux Essentials (010-160) certification: a **Bash-based** interactive exam script, a **PyQt6** graphical exam/trainer application, and an optional **Kivy** mobile-friendly UI. All tools share the same question bank and support multiple-choice and fill-in-the-blank questions.
 
